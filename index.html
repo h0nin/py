@@ -42,11 +42,15 @@
         }
         #iframeContainer {
             position: absolute;
-            width: 80%;
+            width: 70%;
             height: 500px;
+            left: 50%;
+            transform: translateX(-50%);
             margin: 20px auto;
             display: none; /* hided by defoult */
             border: 3px solid #ffcc00;
+            z-index: 10; /* Makes sure iframe above everything else */
+            background-color: rgba(0, 0, 0, 0.7);
             border-radius: 10px;
         }
         iframe {
@@ -80,10 +84,10 @@
 
     <div>
         <!-- links ivide -->
-        <a href="https://www.mediafire.com/file/koehd4bxbft06iy/main%252Bsql%252Bretrieve_.py/file" target="_blank">Download Code</a>
-        <a href="https://www.mediafire.com/file/ph13fdjadzbiz99/requirements.txt/file" target="_blank">Download Requirements</a>
-        <a href="https://www.mediafire.com/file/j4f3dbzfq2fji4h/ph.json/file" target="_blank">Download PH JSON</a>
-        <a href="https://www.mediafire.com/file/ylmqrtg52q9o5c3/updates.py/file" target="_blank">Download Updates</a>
+        <a href="https://www.mediafire.com/file/koehd4bxbft06iy/main%252Bsql%252Bretrieve_.py/file" target="_blank">code</a>
+        <a href="https://www.mediafire.com/file/ph13fdjadzbiz99/requirements.txt/file" target="_blank">requirements</a>
+        <a href="https://www.mediafire.com/file/j4f3dbzfq2fji4h/ph.json/file" target="_blank">ph.json</a>
+        <a href="https://www.mediafire.com/file/ylmqrtg52q9o5c3/updates.py/file" target="_blank">xtra</a>
     </div>
 
     <div id="textContainer">
